@@ -173,7 +173,7 @@ db.transaction(..., ()=>{
 
 #### NOT OK:
 ```javascript
-import Promise form 'promise-polyfill-of-your-choice'; 
+import Promise from 'promise-polyfill-of-your-choice'; 
 
 db.transaction(..., ()=>{
     Promise.all()
